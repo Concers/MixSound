@@ -20,7 +20,8 @@
             android:textSize="60dp"
             android:textStyle="bold" />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/imgb_mic"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:background="@drawable/circle"
@@ -35,7 +36,8 @@
         android:orientation="horizontal">
 
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/imgb_slow"
             android:layout_width="131dp"
             android:layout_height="100dp"
             android:layout_gravity="center_vertical"
@@ -43,7 +45,8 @@
             android:background="@drawable/shape"
             android:src="@mipmap/snail" />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/imgb_fast"
             android:layout_width="131dp"
             android:layout_height="100dp"
             android:layout_gravity="center_vertical"
@@ -59,7 +62,8 @@
         android:layout_height="200dp"
         android:orientation="horizontal">
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/imgb_chimmonk"
             android:layout_width="131dp"
             android:layout_height="100dp"
             android:layout_gravity="center_vertical"
@@ -67,7 +71,8 @@
             android:background="@drawable/shape"
             android:src="@mipmap/bird" />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/imgb_DarthVader"
             android:layout_width="131dp"
             android:layout_height="100dp"
             android:layout_gravity="center_vertical"
